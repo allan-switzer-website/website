@@ -27,9 +27,21 @@ fields:
       format: markdown
   label: Description
 - name: category
-  type: tag_list
+  type: select
   default: []
+  config:
+    required: true
+    options:
+    - Works on Paper
+    - Photo Works
+    - Paintings
+    - Sculpture
+    - Reviews
+    - Exhibitions
+    - Misc.
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: Category
-pages:
-- _posts/2020-08-10-misc.works-on-white-wall.md
-- _posts/2020-08-10-studio-view-of-polka-dots-and-stars-in-progress.md
