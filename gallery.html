@@ -6,9 +6,7 @@ order: 3
 tag: All Work
 ---
 
-{{ page.title }}
-
-<section>
+<section class="gallery-tags-container">
   {% assign links = site.pages %}
   {% for link in links %}
   {% if link.tag %}
@@ -25,8 +23,22 @@ tag: All Work
   {% for post in site.posts %}
   {% if post.category contains page.tag %}
 
-  <div>
+  <div class="gallery-listing">
+
+    <div class="toggler">
     <h4>{{ post.title }}</h4>
+    <h4>{{ post.year }}</h4>
+    </div>
+
+    <div class="panel">
+    <p>{{ post.description }}</p>
+
+    {% for image in post.images %}
+    <img src="{{ image | relative_url }}">
+    {% endfor %}
+
+    </div>
+
   </div>
 
   {% endif %}
