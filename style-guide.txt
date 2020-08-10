@@ -15,5 +15,3 @@ Gallery:
 About:
   h2 for headings
   p for paragraphs
-
-  

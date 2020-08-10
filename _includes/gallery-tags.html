@@ -1,5 +1,6 @@
+
 <section class="gallery-tags-container">
-  {% assign links = site.pages %}
+  {% assign links = site.pages | sort: "tag-order" %}
   {% for link in links %}
   {% if link.tag %}
   <a href="{{ link.url | absolute_url }}"

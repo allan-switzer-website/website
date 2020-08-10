@@ -1,18 +1,17 @@
 <header>
 
-    <div>
     <a href="/index.html"><h1>{{ site.title }}</h1></a>
-    </div>
 
     <div>
-    {% assign links = site.pages | sort: "order" %}
+    {% assign links = site.pages | sort: "nav-order" %}
     {% for link in links %}
-    {% if link.order %}
-    <a href="{{ link.url | absolute_url }}" class="{% if link.url  == page.url %}active{% endif %}">
-      {{ link.title }}
-    </a>
+    {% if link.nav-order %}
+    <a href="{{ link.url | absolute_url }}" class="{% if link.url  == page.url %}active{% endif %}">{{ link.title }}</a>
     {% endif %}
     {% endfor %}
+
+    <a href="mailto:zachary.allan@gmail.com">Contact</a>
+
     </div>
 
 </header>
