@@ -3,7 +3,7 @@ layout: default
 title: Gallery
 head-title: "-- Gallery"
 order: 3
-tag:
+tag: All Work
 ---
 
 {{ page.title }}
@@ -23,11 +23,10 @@ tag:
 <section>
 
   {% for post in site.posts %}
-  {% if post.tags contains page.tag %}
+  {% if post.category contains page.tag %}
 
   <div>
-    <h4>{{ post.name }}</h4>
-    {{ post.image}}
+    <h4>{{ post.title }}</h4>
   </div>
 
   {% endif %}
