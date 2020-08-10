@@ -1,0 +1,11 @@
+<section class="gallery-tags-container">
+  {% assign links = site.pages %}
+  {% for link in links %}
+  {% if link.tag %}
+  <a href="{{ link.url | absolute_url }}"
+     class="{% if link.url  ==  page.url %}active{% endif %}">
+    <button class="tag">{{ link.tag }}</button>
+  </a>
+  {% endif %}
+  {% endfor %}
+</section>

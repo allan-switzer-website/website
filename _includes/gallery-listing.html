@@ -1,0 +1,22 @@
+<div class="gallery-listing">
+
+  <div class="toggler">
+  <h4>{{ post.title }}</h4>
+  <h4>{{ post.year }}</h4>
+  </div>
+
+  <div class="panel">
+
+    <div>
+    {% for image in post.images %}
+    <img src="{{ image | relative_url }}">
+    {% endfor %}
+    </div>
+
+    <div>
+    <h5>{{ post.description }}</h5>
+    </div>
+
+  </div>
+
+</div>

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Gallery
-head-title: "-- Gallery"
-order: 3
-tag: All Work
+title: Works on Paper
+head-title: "-- Works on Paper"
+order:
+tag: Works on Paper
 ---
 
 {% include gallery-tags.html %}
@@ -11,7 +11,7 @@ tag: All Work
 <section>
 
   {% for post in site.posts %}
-  {% if post.category contains page.tag %}
+  {% if post.category == page.tag %}
 
   {% include gallery-listing.html %}
 
