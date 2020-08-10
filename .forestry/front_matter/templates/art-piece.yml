@@ -30,3 +30,5 @@ fields:
   type: tag_list
   default: []
   label: Category
+pages:
+- _posts/misc.works-on-white-wall.md

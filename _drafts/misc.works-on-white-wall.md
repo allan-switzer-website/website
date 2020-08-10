@@ -1,0 +1,10 @@
+---
+year: "1997"
+category:
+- All Works
+images:
+- "/uploads/olivetti884.jpg"
+title: Misc. Works on White Wall
+description: 'Misc. works on white wall; gallery unknown. '
+
+---
