@@ -45,3 +45,5 @@ fields:
       file: 
       path: 
   label: Category
+pages:
+- _posts/misc.works-on-white-wall.md
