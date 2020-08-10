@@ -4,25 +4,25 @@
 * {
   box-sizing: border-box;
   color: #353839;
-  font-family: 'Noto Serif', serif;
+  font-family: helvetica;
 }
 
 html {
   margin: 0;
   padding: 0;
-  background-color: #DBAD58;
-  background-color: white;
 }
 
 body {
   margin: 0 auto;
-  padding: 20px;
-  overflow-x: hidden;
-  min-height: 100vh;
+  padding: 20px 20px 10px 20px;
   width: 100%;
   max-width: 1200px;
+  overflow-x: hidden;
+  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 main {
@@ -33,7 +33,7 @@ main {
 
 header {
   width: 100%;
-  padding-bottom: 2px;
+  padding-bottom: 8px;
   border-bottom: 1px solid;
   margin-bottom: 0px;
   display: flex;
@@ -41,20 +41,17 @@ header {
   align-items: baseline;
 }
 
-
 section.home-container {
-  width: 100%;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 .home-image {
   margin: 20px auto;
   width: 800px;
   max-width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .gallery-tags-container {
@@ -129,9 +126,6 @@ a.active button.tag {
 
 }
 
-
-
-
 footer {
   border-top: 1px solid;
   padding-top: 6px;
@@ -163,6 +157,7 @@ a {
 h1 {
   font-size: 26px;
   font-weight: 700;
+  line-height: 1;
 }
 
 h2 {
@@ -173,15 +168,20 @@ h3 {
 
 }
 
-h4 {}
+h4 {
+  font-family: 'Noto Serif', serif;
+}
 
 h5 {
   font-size: 12px;
 }
+
 p {
+  font-family: 'Noto Serif', serif;
   text-align: justify;
   margin: 0;
   padding: 0;
+  color: #6A6F71;
 }
 
 a {
