@@ -31,11 +31,16 @@ tag: All Work
     </div>
 
     <div class="panel">
-    <p>{{ post.description }}</p>
 
-    {% for image in post.images %}
-    <img src="{{ image | relative_url }}">
-    {% endfor %}
+      <div>
+      {% for image in post.images %}
+      <img src="{{ image | relative_url }}">
+      {% endfor %}
+      </div>
+
+      <div>
+      <p>{{ post.description }}</p>
+      </div>
 
     </div>
 
