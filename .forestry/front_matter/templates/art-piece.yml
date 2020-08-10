@@ -1,4 +1,32 @@
 ---
 label: Art Piece
 hide_body: true
-fields: []
+fields:
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: year
+  type: text
+  config:
+    required: false
+  label: Year
+  default: "--"
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: category
+  type: tag_list
+  default: []
+  label: Category
