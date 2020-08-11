@@ -43,6 +43,10 @@ header {
   align-items: baseline;
 }
 
+header a {
+  padding-right: 10px;
+}
+
 header a:hover {
   color: blue;
 }
@@ -55,7 +59,7 @@ section.home-container {
 }
 .home-image {
   margin: 20px auto;
-  width: 800px;
+  width: 500px;
   max-width: 100%;
   height: auto;
 }
@@ -67,6 +71,10 @@ section.home-container {
   margin: 0 0 10px 0;
   border-bottom: 1px solid;
   padding: 10px 0 0 0;
+}
+
+.gallery-tags-container a {
+  padding-right: 10px;
 }
 
 button.tag {
@@ -207,7 +215,7 @@ p {
 }
 
 a {
-  padding-right: 10px;
+
 }
 
 a.active {
