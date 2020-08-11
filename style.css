@@ -220,6 +220,11 @@ img {
   filter: grayscale(1) brightness(.35);
   transition: filter 1.2s;
 }
+
+.gallery-listing .panel img {
+  transition-delay: .6s;
+}
+
 img.animate {
   filter: grayscale(0) brightness(1);
 }
