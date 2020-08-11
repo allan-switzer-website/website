@@ -228,6 +228,7 @@ img.animate {
 @media screen and (max-width: 800px) {
   body {
     padding: 14px;
+    min-height: -webkit-fill-available;
   }
 
   header {
