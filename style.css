@@ -57,6 +57,7 @@ section.home-container {
   flex-direction: column;
   justify-content: center;
 }
+
 .home-image {
   margin: 20px auto;
   width: 500px;
@@ -147,6 +148,7 @@ a.active button.tag {
 footer {
   border-top: 1px solid;
   padding-top: 6px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
