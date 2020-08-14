@@ -69,8 +69,7 @@ section.home-container {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin: 0 0 10px 0;
-  border-bottom: 1px solid;
+  margin: 0;
   padding: 10px 0 0 0;
 }
 
@@ -92,6 +91,11 @@ button.tag {
 button.tag:hover,
 a.active button.tag {
   color: blue;
+}
+
+.gallery-listing:first-of-type {
+  border-top: 1px solid;
+  padding-top: 10px;
 }
 
 .gallery-listing {
@@ -253,6 +257,10 @@ img.animate {
 
   header h1 {
     padding-bottom: 6px;
+  }
+
+  .gallery-tags-container {
+    max-width: 360px;
   }
 
   .gallery-listing .panel {
