@@ -1,9 +1,10 @@
 ---
-year: "2017"
+year: "2016"
 category: Paintings
 images:
+- "/uploads/olivetti884.jpg"
 - "/uploads/believe-me.jpg"
-title: Believe Me -- Test Aug 13
-description: Testing forestry upload
+title: 'Believe Me '
+description: Acrylic on linen 6’x 8’
 
 ---
