@@ -4,6 +4,6 @@ category: Paintings
 images:
 - "/uploads/saatchiartjan27351.jpg"
 title: Untitled 70-4
-description: Acrylic on Linen 70" x 70"x 2"
+description: Acrylic on Linen 70" x 70"x 2" Private Collection , New York
 
 ---
