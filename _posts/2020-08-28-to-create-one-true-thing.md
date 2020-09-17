@@ -1,5 +1,5 @@
 ---
-year: "--2019"
+year: "2019"
 category: Paintings
 images:
 - "/uploads/65a05615-62ed-44cc-896e-95298b5e150d.jpeg"
