@@ -1,5 +1,5 @@
 ---
-year: "--1996"
+year: "1996"
 category: Paintings
 images:
 - "/uploads/olivetti884.jpg"
