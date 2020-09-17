@@ -1,5 +1,5 @@
 ---
-year: "--2020"
+year: "2020"
 category: Works on Paper
 images:
 - "/uploads/28499489-ac35-42ed-ae94-f98fa02235cf.jpeg"
