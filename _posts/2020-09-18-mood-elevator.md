@@ -4,6 +4,6 @@ category: Paintings
 images:
 - "/uploads/olivetti881.jpg"
 title: 'Mood Elevator '
-description: Acrylic on Linen  36”x 32”
+description: Acrylic on Linen  36”x 32” Collection of Dr. Victor Gomel Esq.
 
 ---
