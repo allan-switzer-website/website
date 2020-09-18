@@ -1,0 +1,9 @@
+---
+year: 2020 Quarant Art in the time of Corona
+category: Paintings
+images:
+- "/uploads/f1769f60-e1b8-4cf7-aff6-bb8e337cd730.jpeg"
+title: 'Colossus '
+description: 'Acrylic on Linen 60”x60” '
+
+---
