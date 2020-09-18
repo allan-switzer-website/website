@@ -1,6 +1,6 @@
 ---
 year: "1990"
-category: Works on Paper
+category: Photo Works
 images:
 - "/uploads/img_0515.jpg"
 title: 'Sewer Puff , NYC '
