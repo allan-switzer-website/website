@@ -8,10 +8,14 @@
   <div class="panel">
 
     <div>
-    {% for image in post.images %}
-    <img src="{{ image | relative_url }}">
-    {% endfor %}
-    </div>
+   {% for image in post.images %}
+   <img
+      class="lazy"
+      alt="© Allan Switzer"
+      data-src="{{ image | relative_url }}"
+   />
+   {% endfor %}
+   </div>
 
     <div>
     <h5>{{ post.description }}</h5>
