@@ -1,5 +1,5 @@
 ---
-year: "--1998"
+year: "1998"
 category: Paintings
 images:
 - "/uploads/allan-switzer-art-nov11717.jpg"

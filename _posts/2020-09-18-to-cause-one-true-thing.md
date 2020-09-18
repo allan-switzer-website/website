@@ -1,5 +1,5 @@
 ---
-year: "--2013"
+year: "2013"
 category: Paintings
 images:
 - "/uploads/img_0337.jpg"
