@@ -4,7 +4,7 @@ category: Sculpture
 images:
 - "/uploads/saatchiartjan27356.png"
 - "/uploads/saatchiartjan27357.png"
-title: 'Typodope , Solo exhibition, M9nte Clark Gallery '
+title: 'Typodope , Solo exhibition, Monte Clark Gallery '
 description: Enamel on maple plywood , 33.74 x 16.8 x 8.5
 
 ---
