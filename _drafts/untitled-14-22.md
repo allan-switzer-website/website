@@ -1,0 +1,9 @@
+---
+year: 1991--
+category: Paintings
+images:
+- "/uploads/switzercultcreative685.png"
+title: Untitled 14-22
+description: 'Acrylic on Linen 30”x 30” Private Collection, St. Petersburg '
+
+---
