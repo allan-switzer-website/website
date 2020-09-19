@@ -1,0 +1,9 @@
+---
+year: 1989-
+category: Paintings
+images:
+- "/uploads/olivetti835.png"
+title: Untitled 12-13
+description: 'Acrylic on Linen, Private Collection , Vancouver '
+
+---
