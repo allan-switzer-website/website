@@ -1,5 +1,6 @@
 ---
-year: "1996"
+year: 1996 Gallery at the Saiyde Bronfman Center for the Arts, Montreal Curated by
+  David Liss
 category: Exhibitions
 images:
 - "/uploads/slide4.png"
