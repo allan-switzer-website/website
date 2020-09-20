@@ -2,6 +2,7 @@
 year: "1992"
 category: Sculpture
 images:
+- "/uploads/micheal-jackson708.png"
 - "/uploads/asartfor-saatchi314.png"
 - "/uploads/saatchiartjan27356.png"
 - "/uploads/saatchiartjan27357.png"
