@@ -2,6 +2,7 @@
 year: "1992"
 category: Sculpture
 images:
+- "/uploads/asartfor-saatchi314.png"
 - "/uploads/saatchiartjan27356.png"
 - "/uploads/saatchiartjan27357.png"
 title: 'Typodope , Solo exhibition, Monte Clark Gallery '
