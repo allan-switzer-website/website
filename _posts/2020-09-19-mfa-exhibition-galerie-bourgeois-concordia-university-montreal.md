@@ -2,7 +2,6 @@
 year: "1995"
 category: Exhibitions
 images:
-- "/uploads/margaret-ching454.png"
 - "/uploads/micheal-jackson711.png"
 - "/uploads/olivetti828.png"
 - "/uploads/olivetti829.png"
