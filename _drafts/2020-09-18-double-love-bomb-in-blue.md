@@ -2,6 +2,8 @@
 year: "2012"
 category: Sculpture
 images:
+- ''
+- ''
 - "/uploads/image-11.png"
 - "/uploads/dscn0025.png"
 title: 'Double Love Bomb in Blue '
