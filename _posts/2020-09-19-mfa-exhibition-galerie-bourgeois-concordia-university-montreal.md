@@ -2,7 +2,7 @@
 year: "1995"
 category: Exhibitions
 images:
-- "/uploads/micheal-jackson711.png"
+- "/uploads/olivetti837.png"
 - "/uploads/olivetti828.png"
 - "/uploads/olivetti829.png"
 - "/uploads/olivetti839.png"
