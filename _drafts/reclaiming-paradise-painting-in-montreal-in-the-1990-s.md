@@ -1,0 +1,13 @@
+---
+year: "1996"
+category: Exhibitions
+images:
+- "/uploads/slide4.png"
+- "/uploads/asartfor-saatchi322.png"
+- "/uploads/img_0197.png"
+- "/uploads/margaret-ching460.png"
+- "/uploads/margaret-ching454.png"
+title: Reclaiming Paradise Painting in Montreal in the 1990’s
+description: 'Acrylic on Linen '
+
+---
