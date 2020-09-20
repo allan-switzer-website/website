@@ -3,6 +3,7 @@ year: 1996 Gallery at the Saiyde Bronfman Center for the Arts, Montreal Curated 
   David Liss
 category: Exhibitions
 images:
+- "/uploads/olivetti842.png"
 - "/uploads/slide4.png"
 - "/uploads/asartfor-saatchi322.png"
 - "/uploads/img_0197.png"
