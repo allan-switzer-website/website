@@ -1,6 +1,5 @@
 ---
-year: 1996 Gallery at the Saiyde Bronfman Center for the Arts, Montreal Curated by
-  David Liss
+year: "1996"
 category: Exhibitions
 images:
 - "/uploads/img_3882.png"
@@ -12,6 +11,7 @@ images:
 - "/uploads/margaret-ching460.png"
 - "/uploads/margaret-ching454.png"
 title: Reclaiming Paradise Painting in Montreal in the 1990’s
-description: 'Acrylic on Linen '
+description: Acrylic on Linen --  Gallery at the Saiyde Bronfman Center for the Arts,
+  Montreal Curated by David Liss
 
 ---

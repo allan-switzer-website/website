@@ -1,5 +1,5 @@
 ---
-year: 1991--
+year: "1991"
 category: Sculpture
 images:
 - "/uploads/photo_412.png"
