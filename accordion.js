@@ -14,7 +14,7 @@ dropdown.forEach(section => {
       panel.style.maxHeight = panel.scrollHeight + "px"
     }
 
-    const images = dropdown.querySelectorAll("img")
+    const images = section.querySelectorAll("img")
     images.forEach(img => {
 
         img.setAttribute("src", img.getAttribute("data-src"))
