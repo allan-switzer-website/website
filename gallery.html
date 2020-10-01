@@ -11,18 +11,24 @@ tag-order: 1
 
 <section>
 
-  {% for post in site.posts %}
-  {% if post.category contains
-      'Paintings'
-      or 'Works on Paper'
-      or 'Photo Works'
-      or 'Paintings'
-      or 'Sculpture'
-      or 'Misc.' %}
 
-  {% include gallery-listing.html %}
+ {% assign posts = site.posts | sort: "year" | reverse %}
 
-  {% endif %}
-  {% endfor %}
+  {% for post in posts %}
+     {% if post.category contains
+         'Paintings'
+         or 'Works on Paper'
+         or 'Photo Works'
+         or 'Paintings'
+         or 'Sculpture'
+         or 'Misc.' %}
+
+     {% include gallery-listing.html %}
+
+     {% endif %}
+     {% endfor %}
+
+
+
 
 </section>

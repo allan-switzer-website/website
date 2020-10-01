@@ -11,7 +11,10 @@ tag-order: 4
 
 <section>
 
-  {% for post in site.posts %}
+
+  {% assign posts = site.posts | sort: "year" | reverse %}
+
+   {% for post in posts %}
   {% if post.category == page.tag %}
 
   {% include gallery-listing.html %}
