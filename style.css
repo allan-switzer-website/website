@@ -145,9 +145,7 @@ a.active button.tag {
 
 .gallery-listing .panel img {
  width: 100%;
- min-height: 600px;
  height: auto;
- object-fit: cover;
  padding: 0 0 20px 0;
 }
 
