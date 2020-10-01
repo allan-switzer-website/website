@@ -8,12 +8,6 @@ dropdown.forEach(section => {
     section.classList.toggle("open")
     event.preventDefault()
 
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px"
-    }
-
     const images = section.querySelectorAll("img")
     images.forEach(img => {
 
