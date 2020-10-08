@@ -250,7 +250,7 @@ img.animate {
 /* MOBILE */
 @media screen and (max-width: 50rem) {
   body {
-    padding: 1rem;
+    padding: 1rem 1rem .6rem 1rem;
   }
 
   header {
