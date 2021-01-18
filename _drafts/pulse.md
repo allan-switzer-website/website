@@ -1,0 +1,9 @@
+---
+year: "2018"
+category: Paintings
+images:
+- "/uploads/6f0a5f12-cbc6-4c65-aec2-16328aeb551f.jpeg"
+title: 'Pulse '
+description: Acrylic on Linen mounted to panel 24x 24”x 2”
+
+---
