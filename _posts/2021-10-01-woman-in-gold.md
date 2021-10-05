@@ -1,5 +1,5 @@
 ---
-year: "--2019"
+year: "2019"
 category: Paintings
 images:
 - "/uploads/womaningold.png"
