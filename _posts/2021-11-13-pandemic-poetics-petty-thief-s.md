@@ -1,5 +1,5 @@
 ---
-year: "-2021-"
+year: "2021"
 category: Paintings
 images:
 - "/uploads/img_0661.png"
