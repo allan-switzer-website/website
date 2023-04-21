@@ -41,4 +41,5 @@ collections:
         widget: "list"
         media_folder: '/uploads'
         fields: 
-          - {label: "Images", widget: "image", choose_url: false}
+          - {label: "Image", name: "image", widget: "image", choose_url: false}
+          
