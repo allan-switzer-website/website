@@ -4,6 +4,14 @@ backend:
   name: git-gateway
   branch: master
 
+site_url: https://allanswitzer.com
+
+display_url: https://allanswitzer.com
+
+logo_url: https://allanswitzer.com/uploads/margaret-ching454.png
+
+search: false
+
 media_folder: '/uploads'
 
 collections:
