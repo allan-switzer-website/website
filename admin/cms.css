@@ -1,15 +1,7 @@
-section {
-    background-color: pink;
-}
-
-img {
-    min-width: 600px;
-}
-
 aside {
-    display: none;
+    display: none !important;
 }
 
 header nav ul {
-    display: none;
+    display: none !important;
 }
