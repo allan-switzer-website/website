@@ -36,9 +36,6 @@ collections:
 
       - label: "Images"
         name: "images"
-        widget: "image"
-        choose_url: false
-        allow_multiple: true
-        media_library:
-          config:
-            multiple: true
+        widget: list
+        fields: 
+          - {name: image, label: Image, widget: image}
