@@ -1,13 +1,26 @@
-main {
-    padding: 20px !important;
-    width: 100% !important;
-    max-width: 100% !important;
+#nc-root > div.css-v758ki-AppMainContainer.e1ghgnen0 > div {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
 
-aside {
-    display: none !important;
+#nc-root > div.css-v758ki-AppMainContainer.e1ghgnen0 > div > main {
+    margin: 0;
+    padding: 40px;
 }
 
+#nc-root > div.css-v758ki-AppMainContainer.e1ghgnen0 > div > main > div {
+    margin: 0 auto;
+    width: 682px;
+}
+
+#nc-root > div.css-v758ki-AppMainContainer.e1ghgnen0 > div > main > div.css-p5sjac-CollectionControlsContainer.e17kb5zm0 {
+    margin-top: 13px;
+}
+
+header,
+div.css-p5sjac-CollectionControlsContainer.e17kb5zm0 div:not(:last-child),
+aside,
 header nav ul {
     display: none !important;
 }
