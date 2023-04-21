@@ -36,11 +36,9 @@ collections:
 
       - label: "Images"
         name: "images"
-        widget: "image"
-        choose_url: false
-        media_library: '/uploads'
-          config:
-            multiple: true
+        widget: "list"
+        summary: '{{fields.image}}'
+        field: {label: Image, name: image, widget: image}
 
 
 
