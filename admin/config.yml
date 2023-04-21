@@ -38,6 +38,7 @@ collections:
         name: "images"
         widget: "image"
         choose_url: false
+        allow_multiple: true
         media_library:
           config:
             multiple: true
