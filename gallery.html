@@ -11,24 +11,12 @@ tag-order: 1
 
 <section>
 
-
  {% assign posts = site.posts | sort: "year" | reverse %}
 
   {% for post in posts %}
-     {% if post.category contains
-         'Paintings'
-         or 'Works on Paper'
-         or 'Photo Works'
-         or 'Paintings'
-         or 'Sculpture'
-         or 'Misc.' %}
 
      {% include gallery-listing.html %}
 
-     {% endif %}
-     {% endfor %}
-
-
-
+  {% endfor %}
 
 </section>
