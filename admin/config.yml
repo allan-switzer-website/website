@@ -13,8 +13,6 @@ collections:
 
     folder: "_posts"
 
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
-
     create: true # Allow users to create new documents in this collection
 
     fields:
