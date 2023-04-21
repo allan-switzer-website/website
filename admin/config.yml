@@ -40,4 +40,4 @@ collections:
         choose_url: false
         media_library:
           config:
-          multiple: true
+            multiple: true
