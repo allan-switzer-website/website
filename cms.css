@@ -1,0 +1,15 @@
+section {
+    background-color: pink;
+}
+
+img {
+    min-width: 600px;
+}
+
+aside {
+    display: none;
+}
+
+header nav ul {
+    display: none;
+}
