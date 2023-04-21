@@ -6,7 +6,7 @@
 
 #nc-root > div.css-v758ki-AppMainContainer.e1ghgnen0 > div > main {
     margin: 0;
-    padding: 40px;
+    padding: 30px 40px;
 }
 
 #nc-root > div.css-v758ki-AppMainContainer.e1ghgnen0 > div > main > div {
@@ -14,12 +14,8 @@
     width: 682px;
 }
 
-#nc-root > div.css-v758ki-AppMainContainer.e1ghgnen0 > div > main > div.css-p5sjac-CollectionControlsContainer.e17kb5zm0 {
-    margin-top: 13px;
-}
-
 header,
-div.css-p5sjac-CollectionControlsContainer.e17kb5zm0 div:not(:last-child),
+div.css-p5sjac-CollectionControlsContainer.e17kb5zm0,
 aside,
 header nav ul {
     display: none !important;
