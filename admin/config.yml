@@ -36,22 +36,11 @@ collections:
         name: "description"
         widget: "string"
 
-      - label: "Image"
+      - label: "Images"
         name: "images"
         widget: "image"
+        allow_multiple: true
         choose_url: false
-          
-      - label: "Image"
-        name: "images"
-        widget: "image"
-        choose_url: false
- 
-      - label: "Image"
-        name: "images"
-        widget: "image"
-        choose_url: false
-          
-      - label: "Image"
-        name: "images"
-        widget: "image"
-        choose_url: false
+        media_library:
+          config:
+            multiple: true
