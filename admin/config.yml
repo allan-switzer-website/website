@@ -3,18 +3,33 @@
 backend:
   name: git-gateway
   branch: master
+
 media_folder: '/uploads'
+
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
-    folder: "_posts" # The path to the folder where the documents are stored
+
+    label: "Posts"
+
+    folder: "_posts"
+
     create: true # Allow users to create new documents in this collection
 
-    fields: # The fields for each document, usually in front matter
-      - {label: "Year", name: "year", widget: "string", default: "--"}
-      - {label: "Category", name: "category", widget: "select", options: ["Works on Paper", "Photo Works", "Paintings", "Sculpture", "Reviews", "Exhibitions", "Misc."]}
-      - {label: "Title", name: "title", widget: "string"}
-      
+    fields:
+      - label: "Year"
+        name: "year"
+        widget: "string"
+        default: "--"
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["Works on Paper", "Photo Works", "Paintings", "Sculpture", "Reviews", "Exhibitions", "Misc."]
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
       - label: "Description"
         name: "description"
         widget: "string"
@@ -23,7 +38,7 @@ collections:
         name: "images"
         widget: "image"
         choose_url: false
-        media_library:
+        media_library: '/uploads'
           config:
             multiple: true
 
